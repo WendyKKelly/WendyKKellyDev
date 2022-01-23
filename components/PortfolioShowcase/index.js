@@ -10,6 +10,7 @@ import Heading from '../Heading';
 //import Image from '../Image';
 import Image from 'next/image';
 import Container from '../UI/Container';
+import { PORTFOLIO_SHOWCASE } from '../data';
 import GlideCarousel from '../GlideCarousel';
 import GlideSlide from '../GlideCarousel/glideSlide';
 import {
@@ -21,7 +22,6 @@ import {
   MetaItem,
 } from './portfolioShowcase.style';
 import { PrevButton, NextButton } from '../portfolio.style';
-import { PORTFOLIO_SHOWCASE } from '../data';
 
 const PortfolioShowcase = ({
   sectionWrapper,

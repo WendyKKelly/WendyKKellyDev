@@ -22,6 +22,15 @@ const Banner = () => {
         <Zoom>
           <ContentWrapper>
             <BannerContent>
+              <div className="image">
+                <Image
+                  src={illustration}
+                  alt="orchid background"
+                  layout="fill"
+                  objectFit="cover"
+                  quality={100}
+                />
+              </div>
               <Heading as="h1" content="Wendy Kelly, Front End Developer" />
               <Heading as="h3" content="" />
 

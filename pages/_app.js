@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
-import App from 'next/app';
+
 import FavIcon from '../public/image/favicon.ico';
-import Image from 'next/image';
+
 import '../styles/index.css';
 import '../styles/global.css';
 

@@ -9,7 +9,7 @@ import Heading from '../Heading';
 import Container from '../UI/Container';
 import Section, {
   ContentWrapper,
-  //Illustration,
+  Watch,
   BannerContent,
   Subscribe,
 } from './banner.style';
@@ -20,19 +20,34 @@ const Banner = () => {
       <Container>
         <Zoom>
           <ContentWrapper>
-            <BannerContent>
-              <Heading as="h1" content="Wendy Kelly, Front End Developer" />
-              <Heading as="h3" content="" />
+            <div className="wrap">
+              <Watch>
+                <div className="watch">
+                  <div className="watch-face">
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+                  </div>
+                </div>
+                <BannerContent>
+                  <Heading as="h1" content="Wendy Kelly, Front End Developer" />
 
-              <Subscribe>
-                <Heading
-                  as="h3"
-                  content="—  I enjoyed working with developers so much I decided to join them!"
-                />
+                  <Heading as="h3" content="" />
 
-                <Text className="banner-caption" content="" />
-              </Subscribe>
-            </BannerContent>
+                  <Subscribe>
+                    <Heading
+                      as="h3"
+                      content="—  I enjoyed working with developers so much I decided to join them!"
+                    />
+
+                    <Text className="banner-caption" content="" />
+                  </Subscribe>
+                </BannerContent>
+              </Watch>
+            </div>
           </ContentWrapper>
         </Zoom>
       </Container>

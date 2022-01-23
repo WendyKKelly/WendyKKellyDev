@@ -43,21 +43,21 @@ export const PortfolioShowcaseWrapper = styled.div`
     .rc-tabs-nav-scroll {
       .rc-tabs-nav {
         .rc-tabs-tab {
-          font-size: 16px;
+          font-size: 1.5;
           font-weight: 700;
-          font-family: 'Raleway', sans-serif;
-          color: #43414e;
+          font-family: 'Helvetica Neue', sans-serif;
+          color: #2c2e35;
           display: inline-block;
           margin-right: 40px;
           cursor: pointer;
           @media (max-width: 990px) {
-            font-size: 15px;
+            font-size: 1.2rem;
             margin-right: 35px;
             padding-bottom: 20px;
           }
           @media (max-width: 575px) {
             margin-right: 20px;
-            font-size: 14px;
+            font-size: 1rem;
           }
           &:last-child {
             margin-right: 0;
@@ -87,7 +87,7 @@ export const PortfolioShowcaseWrapper = styled.div`
               top: 0;
               left: 0;
               width: 0;
-              color: #3444f1;
+              color: rgba(188, 237, 243, 0.889);
               overflow: hidden;
               white-space: nowrap;
               transition: 0.5s ease-in-out;
@@ -134,24 +134,24 @@ export const PortfolioLink = styled.div`
     margin-bottom: 15px;
   }
   a {
-    font-size: 16px;
+    font-size: 1.5rem;
     font-weight: 700;
-    font-family: 'Raleway', sans-serif;
-    color: #3444f1;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #2c2e35;
     position: relative;
     padding: 0 0 2px 8px;
     @media (max-width: 990px) {
       font-size: 15px;
     }
     @media (max-width: 575px) {
-      font-size: 14px;
+      font-size: 1rem;
     }
     &:before,
     &:after {
       content: '';
       display: block;
       width: 58px;
-      height: 15px;
+      height: 1.2rem;
       position: absolute;
       background: #eaecfe;
       bottom: 0;
@@ -183,8 +183,8 @@ export const BuiltWith = styled.div`
     display: inline-block;
     font-size: 16px;
     font-weight: 600;
-    color: #3444f1;
-    font-family: 'Raleway', sans-serif;
+    color: #2c2e35;
+    font-family: 'Helvetica Neue', sans-serif;
     padding: 5px 22px;
     position: relative;
     @media (max-width: 990px) {
@@ -232,8 +232,8 @@ export const PortfolioMeta = styled.div`
 export const MetaItem = styled.span`
   margin-right: 45px;
   font-size: 16px;
-  color: #43414e;
-  font-family: 'Raleway', sans-serif;
+  color: rgba(188, 237, 243, 0.889);
+  font-family: 'Helvetica Neue', sans-serif;
   font-weight: 400;
   @media (max-width: 990px) {
     font-size: 14px;
@@ -261,11 +261,11 @@ export const MetaItem = styled.span`
     }
   }
   > a {
-    color: #3444f1;
+    color: #2c2e35;
     font-weight: 700;
   }
   > b {
-    font-family: 'roboto', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     margin-right: 5px;
   }
 `;

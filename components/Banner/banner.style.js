@@ -2,18 +2,20 @@ import styled from 'styled-components';
 import { rgba } from 'polished';
 import { themeGet } from '@styled-system/theme-get';
 import Image from 'next/image';
-
+import { BreathePulse } from '../BreathePulse';
 import { AnimSpinner } from '../Animation';
 const Section = styled.section``;
 
 export const ContentWrapper = styled.div`
   .wrap {
     max-width: 100%;
+    background: rgba(188, 237, 243, 0.3);
   }
   .image {
     position: relative;
     width: 100vw;
     background-repeat: no-repeat;
+
     height: 100vh;
     overflow: hidden;
     border-radius: 0% 70% 0% 50% / 0% 50% 0% 70%;
@@ -43,7 +45,37 @@ export const ContentWrapper = styled.div`
     }
   }
 `;
-
+export const Watch = styled.div`
+  .watch {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    justify-content: center;
+  }
+  .watch-face {
+    color: transparent;
+    position: absolute;
+    top: 28%;
+    left: 15%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: rgba(188, 237, 243, 0.889);
+    ${BreathePulse};
+    @media only screen and (max-width: 1440px) {
+      top: 15%;
+      left: 15%;
+    }
+    @media only screen and (max-width: 768px) {
+      top: 15%;
+      left: 50%;
+    }
+    @media only screen and (max-width: 480px) {
+      top: 15%;
+      left: 50%;
+    }
+  }
+`;
 export const Illustration = styled.div``;
 
 export const BannerContent = styled.div`
@@ -75,7 +107,7 @@ export const BannerContent = styled.div`
     line-height: 60px;
     font-weight: 900;
     margin-left: 0rem;
-    margin-top: 20rem;
+    margin-top: 10rem;
     margin-right: 0rem;
     color: ${themeGet('colors.menu', '#2c2e35')};
     margin-bottom: 24px;

@@ -15,11 +15,11 @@ export const PORTFOLIO_SHOWCASE = [
           'My current passion project is also my showcase for development. Includes Headless CMS using Ghost, Nextjs, React, Styled Components, Integrated subdomain hosted on CloudFare, Serverless hosting on Vercel',
         image: PortfolioImage1,
         link: 'https://underbel.li',
-        featuredIn: '',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
+        featuredIn: 'Built With',
+        featuredLink: 'https://builtwith.com/underbel.li',
+        view: '',
+        love: '',
+        feedback: '',
         buildWith: [
           {
             content: 'React JS',
@@ -38,13 +38,13 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: '',
         description: '',
-        image: PortfolioImage2,
+        image: PortfolioImage1,
         link: '#',
-        featuredIn: '',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
+        featuredIn: 'Built With',
+        featuredLink: 'https://builtwith.com/underbel.li',
+        view: '',
+        love: '',
+        feedback: '',
         buildWith: [
           {
             content: '',
@@ -68,11 +68,11 @@ export const PORTFOLIO_SHOWCASE = [
           'This is my personal blog where I am exploring what it means to still be Christian in 2022. Nextjs with a simple Markdown blog',
         image: PortfolioImage2,
         link: 'https://explicitchristian.com',
-        featuredIn: '',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
+        featuredIn: 'Built With',
+        featuredLink: 'https://builtwith.com/explicitchristian.com',
+        view: '',
+        love: '',
+        feedback: '',
         buildWith: [
           {
             content: 'React JS',
@@ -88,13 +88,13 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: '',
         description: '',
-        image: PortfolioImage1,
+        image: PortfolioImage2,
         link: '#',
-        featuredIn: '',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
+        featuredIn: 'Built With',
+        featuredLink: '',
+        view: '',
+        love: '',
+        feedback: '',
         buildWith: [
           {
             content: '',
@@ -119,11 +119,11 @@ export const PORTFOLIO_SHOWCASE = [
           'My personal blog, built on Nextjs with a simple Markdown blog. Added a MailChimp newsletter.',
         image: PortfolioImage3,
         link: 'https://wendykianakelly.com',
-        featuredIn: '',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
+        featuredIn: 'Built With',
+        featuredLink: 'https://builtwith.com/wendykianakelly.com',
+        view: '',
+        love: '',
+        feedback: '',
         buildWith: [
           {
             content: 'React JS',
@@ -139,13 +139,13 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: '',
         description: '',
-        image: PortfolioImage2,
+        image: PortfolioImage3,
         link: '#',
-        featuredIn: '',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
+        featuredIn: 'Built With',
+        featuredLink: 'https://builtwith.com/wendykianakelly.com',
+        view: '',
+        love: '',
+        feedback: '',
         buildWith: [
           {
             content: '',
@@ -168,12 +168,12 @@ export const PORTFOLIO_SHOWCASE = [
         description:
           'This is a simple example of a portfolio site I created for practice.',
         image: PortfolioImage4,
-        link: '#',
-        featuredIn: '',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
+        link: 'wendykianakelly.dev',
+        featuredIn: 'Built With',
+        featuredLink: 'https://builtwith.com/wendykianakelly.dev',
+        view: '',
+        love: '',
+        feedback: '',
         buildWith: [
           {
             content: 'React JS',
@@ -189,13 +189,13 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: '',
         description: '',
-        image: PortfolioImage2,
+        image: PortfolioImage4,
         link: '#',
         featuredIn: '',
         featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
+        view: '',
+        love: '',
+        feedback: '',
         buildWith: [
           {
             content: '',
@@ -218,11 +218,11 @@ export const PORTFOLIO_SHOWCASE = [
         description: 'This is a project I did a few years ago using Redux.',
         image: PortfolioImage5,
         link: 'https://fugacious.space',
-        featuredIn: '',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
+        featuredIn: 'Built With',
+        featuredLink: 'https://builtwith.com/fugacious.space',
+        view: '',
+        love: '',
+        feedback: '',
         buildWith: [
           {
             content: 'React JS',
@@ -242,9 +242,9 @@ export const PORTFOLIO_SHOWCASE = [
         link: '#',
         featuredIn: '',
         featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
+        view: '',
+        love: '',
+        feedback: '',
         buildWith: [
           {
             content: '',
@@ -267,12 +267,12 @@ export const PORTFOLIO_SHOWCASE = [
         description:
           'This is my ongoing JavaScript practice site, dedicated to — BEER.',
         image: PortfolioImage6,
-        link: 'https://wendykianakelly.today',
-        featuredIn: '',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
+        link: 'https://backroad.space',
+        featuredIn: 'Built With',
+        featuredLink: 'https://builtwith.com/backroad.space',
+        view: '',
+        love: '',
+        feedback: '',
         buildWith: [
           {
             content: 'React JS',
@@ -288,13 +288,13 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: '',
         description: '',
-        image: PortfolioImage2,
+        image: PortfolioImage6,
         link: '#',
-        featuredIn: 'AppStore',
+        featuredIn: '',
         featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
+        view: '',
+        love: '',
+        feedback: '',
         buildWith: [
           {
             content: '',

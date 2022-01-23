@@ -1,9 +1,9 @@
-import PortfolioImage1 from '../../public/image/portfolio-1.jpg';
-import PortfolioImage2 from '../../public/image/portfolio-2.jpg';
-import PortfolioImage3 from '../../public/image/portfolio-3.jpg';
-import PortfolioImage4 from '../../public/image/portfolio-4.jpg';
-import PortfolioImage5 from '../../public/image/portfolio-5.jpg';
-import PortfolioImage6 from '../../public/image/portfolio-6.jpg';
+import PortfolioImage1 from '../public/image/portfolio-1.jpg';
+import PortfolioImage2 from '../public/image/portfolio-2.jpg';
+import PortfolioImage3 from '../public/image/portfolio-3.jpg';
+import PortfolioImage4 from '../public/image/portfolio-4.jpg';
+import PortfolioImage5 from '../public/image/portfolio-5.jpg';
+import PortfolioImage6 from '../public/image/portfolio-6.jpg';
 
 import Step1 from '../../public/image/step-1.png';
 import Step2 from '../../public/image/step-2.png';

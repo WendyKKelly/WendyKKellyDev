@@ -167,56 +167,7 @@ export const PORTFOLIO_SHOWCASE = [
       },
     ],
   },
-  {
-    title: 'BEER TIME?',
-    portfolioItem: [
-      {
-        title: 'JS Practice Site',
-        description:
-          'This is my ongoing JavaScript practice site, dedicated to — BEER.',
-        image: PortfolioImage6,
-        link: 'https://wendykianakelly.today',
-        featuredIn: '',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
-        buildWith: [
-          {
-            content: 'React JS',
-          },
-          {
-            content: 'Momentjs',
-          },
-          {
-            content: 'APIs',
-          },
-        ],
-      },
-      {
-        title: '',
-        description: '',
-        image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
-        buildWith: [
-          {
-            content: '',
-          },
-          {
-            content: '',
-          },
-          {
-            content: '',
-          },
-        ],
-      },
-    ],
-  },
+
   {
     title: 'PERSONAL BLOG',
     portfolioItem: [
@@ -348,6 +299,56 @@ export const PORTFOLIO_SHOWCASE = [
         image: PortfolioImage5,
         link: '#',
         featuredIn: '',
+        featuredLink: '#',
+        view: '8.5K',
+        love: '5.5K',
+        feedback: '3.2K',
+        buildWith: [
+          {
+            content: '',
+          },
+          {
+            content: '',
+          },
+          {
+            content: '',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: 'BEER TIME?',
+    portfolioItem: [
+      {
+        title: 'JS Practice Site',
+        description:
+          'This is my ongoing JavaScript practice site, dedicated to — BEER.',
+        image: PortfolioImage6,
+        link: 'https://wendykianakelly.today',
+        featuredIn: '',
+        featuredLink: '#',
+        view: '4.5K',
+        love: '1.5K',
+        feedback: '1.2K',
+        buildWith: [
+          {
+            content: 'React JS',
+          },
+          {
+            content: 'Momentjs',
+          },
+          {
+            content: 'APIs',
+          },
+        ],
+      },
+      {
+        title: '',
+        description: '',
+        image: PortfolioImage2,
+        link: '#',
+        featuredIn: 'AppStore',
         featuredLink: '#',
         view: '8.5K',
         love: '5.5K',

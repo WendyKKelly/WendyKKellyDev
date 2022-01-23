@@ -11,7 +11,7 @@ import { plus } from 'react-icons-kit/feather/plus';
 
 import { ButtonWrapper } from '../../Portfolio/portfolio.style';
 import ProcessItem from './process.style';
-import { PROCESS_STEPS, SERVICE_LIST } from 'common/src/data/Portfolio/data';
+import { PROCESS_STEPS, SERVICE_LIST } from '../data';
 
 const ProcessSection = ({
   sectionWrapper,

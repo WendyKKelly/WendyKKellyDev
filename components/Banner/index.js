@@ -4,7 +4,6 @@ import Zoom from 'react-reveal/Zoom';
 import Text from '../Text';
 import Link from '../Link';
 import Image from 'next/image';
-import illustration from '../../public/image/dandelion2.jpg';
 import Heading from '../Heading';
 
 import Container from '../UI/Container';
@@ -22,15 +21,6 @@ const Banner = () => {
         <Zoom>
           <ContentWrapper>
             <BannerContent>
-              <div className="image">
-                <Image
-                  src={illustration}
-                  alt="orchid background"
-                  layout="fill"
-                  objectFit="cover"
-                  quality={100}
-                />
-              </div>
               <Heading as="h1" content="Wendy Kelly, Front End Developer" />
               <Heading as="h3" content="" />
 

@@ -4,13 +4,14 @@ import Link from 'next/link';
 import Tabs, { TabPane } from 'rc-tabs';
 import TabContent from 'rc-tabs/lib/TabContent';
 import ScrollableInkTabBar from 'rc-tabs/lib/ScrollableInkTabBar';
-import Box from 'common/src/components/Box';
-import Text from 'common/src/components/Text';
-import Heading from 'common/src/components/Heading';
-import Image from 'common/src/components/Image';
-import Container from 'common/src/components/UI/Container';
-import GlideCarousel from 'common/src/components/GlideCarousel';
-import GlideSlide from 'common/src/components/GlideCarousel/glideSlide';
+import Box from '../Box';
+import Text from '../Text';
+import Heading from '../Heading';
+//import Image from '../Image';
+import Image from 'next/image';
+import Container from '../UI/Container';
+import GlideCarousel from '../GlideCarousel';
+import GlideSlide from '../GlideCarousel/glideSlide';
 import {
   PortfolioShowcaseWrapper,
   PortfolioShowcaseItem,
@@ -20,7 +21,7 @@ import {
   MetaItem,
 } from './portfolioShowcase.style';
 import { PrevButton, NextButton } from '../portfolio.style';
-import { PORTFOLIO_SHOWCASE } from 'common/src/data/Portfolio/data';
+import { PORTFOLIO_SHOWCASE } from '../data';
 
 const PortfolioShowcase = ({
   sectionWrapper,
@@ -44,10 +45,11 @@ const PortfolioShowcase = ({
     <Box {...sectionWrapper} as="section" id="portfolio_section">
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
-          <Heading {...secTitle} content="Making Ideas Come to Life !" />
+          <Heading {...secTitle} as="h1" content="Projects" />
           <Text
             {...secDescription}
-            content="Year after year, Blue Label Labs has been recognized as one of the top design and development firms in New York City. It’s nice to feel appreciated!"
+            as="h3"
+            content="Here's what I have been working on: My main project, Underbelly, plus a couple personal blogs, a sample portfolio site, a weather app, and my on-going javascript learning site — based on beer :)"
           />
         </Box>
 

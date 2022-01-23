@@ -2,11 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Line } from 'rc-progress';
 import { Icon } from 'react-icons-kit';
-import Box from 'common/src/components/Box';
-import Text from 'common/src/components/Text';
-import Heading from 'common/src/components/Heading';
-import Image from 'common/src/components/Image';
-import Container from 'common/src/components/UI/Container';
+import Box from '../Box';
+import Text from '../Text';
+import Heading from '../Heading';
+import Image from 'next/image';
+//import Image from '../Image';
+import Container from '../UI/Container';
 
 import {
   SkillItem,
@@ -17,7 +18,7 @@ import {
   SkillIcon,
   SkillAbout,
 } from './skill.style';
-import { SKILLS } from 'common/src/data/Portfolio/data';
+import { SKILLS } from '../data';
 import { ic_thumb_up } from 'react-icons-kit/md/ic_thumb_up';
 
 const SkillSection = ({

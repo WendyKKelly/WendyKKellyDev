@@ -94,7 +94,7 @@ const GlideCarousel = ({
           {...bulletWrapperStyle}
         >
           <Fragment>
-            {totalBullets.map(index => (
+            {totalBullets.map((index) => (
               <BulletButton
                 key={index}
                 className="glide__bullet"

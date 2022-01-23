@@ -71,7 +71,7 @@ export const PORTFOLIO_SHOWCASE = [
         title: 'Underbelly Project',
         description:
           'My current passion project is also my showcase for development. Includes Headless CMS using Ghost, Nextjs, React, Styled Components, Integrated subdomain hosted on CloudFare, Serverless hosting on Vercel',
-        image: 'PortfolioImage1',
+        image: PortfolioImage1,
         link: 'https://underbel.li',
         featuredIn: '',
         featuredLink: '#',
@@ -96,7 +96,7 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: '',
         description: '',
-        image: 'PortfolioImage2',
+        image: PortfolioImage2,
         link: '#',
         featuredIn: '',
         featuredLink: '#',
@@ -124,7 +124,7 @@ export const PORTFOLIO_SHOWCASE = [
         title: 'Explicit Christian',
         description:
           'This is my personal blog where I am exploring what it means to still be Christian in 2022. Nextjs with a simple Markdown blog',
-        image: 'PortfolioImage2',
+        image: PortfolioImage2,
         link: 'https://explicitchristian.com',
         featuredIn: '',
         featuredLink: '#',
@@ -146,7 +146,7 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: '',
         description: '',
-        image: 'PortfolioImage1',
+        image: PortfolioImage1,
         link: '#',
         featuredIn: '',
         featuredLink: '#',
@@ -175,7 +175,7 @@ export const PORTFOLIO_SHOWCASE = [
         title: 'Wendy Kiana Kelly(esq)',
         description:
           'My personal blog, built on Nextjs with a simple Markdown blog. Added a MailChimp newsletter.',
-        image: 'PortfolioImage3',
+        image: PortfolioImage3,
         link: 'https://wendykianakelly.com',
         featuredIn: '',
         featuredLink: '#',
@@ -197,7 +197,7 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: '',
         description: '',
-        image: 'PortfolioImage2',
+        image: PortfolioImage2,
         link: '#',
         featuredIn: '',
         featuredLink: '#',
@@ -225,7 +225,7 @@ export const PORTFOLIO_SHOWCASE = [
         title: 'Wendy Kelly, Writer, etc',
         description:
           'This is a simple example of a portfolio site I created for practice.',
-        image: 'PortfolioImage4',
+        image: PortfolioImage4,
         link: '#',
         featuredIn: '',
         featuredLink: '#',
@@ -247,7 +247,7 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: '',
         description: '',
-        image: 'PortfolioImage2',
+        image: PortfolioImage2,
         link: '#',
         featuredIn: '',
         featuredLink: '#',
@@ -274,7 +274,7 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: 'Weather App',
         description: 'This is a project I did a few years ago using Redux.',
-        image: 'PortfolioImage5',
+        image: PortfolioImage5,
         link: 'https://fugacious.space',
         featuredIn: '',
         featuredLink: '#',
@@ -296,7 +296,7 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: '',
         description: '',
-        image: 'PortfolioImage5',
+        image: PortfolioImage5,
         link: '#',
         featuredIn: '',
         featuredLink: '#',
@@ -324,7 +324,7 @@ export const PORTFOLIO_SHOWCASE = [
         title: 'JS Practice Site',
         description:
           'This is my ongoing JavaScript practice site, dedicated to — BEER.',
-        image: 'PortfolioImage6',
+        image: PortfolioImage6,
         link: 'https://wendykianakelly.today',
         featuredIn: '',
         featuredLink: '#',
@@ -346,7 +346,7 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: '',
         description: '',
-        image: 'PortfolioImage2',
+        image: PortfolioImage2,
         link: '#',
         featuredIn: 'AppStore',
         featuredLink: '#',

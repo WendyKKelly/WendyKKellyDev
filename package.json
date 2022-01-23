@@ -1,5 +1,5 @@
 {
-  "name": "underbelly-basic",
+  "name": "wendykkelly",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,27 +11,20 @@
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
     "@mdx-js/loader": "^1.6.16",
-    "@next/mdx": "^9.5.2",
-    
     "@reach/accordion": "^0.10.4",
     "@styled-system/theme-get": "^5.1.2",
-    "@tryghost/admin-api": "^1.4.1",
-    "@tryghost/content-api": "^1.5.2",
-    "@zeit/next-css": "^1.0.1",
     "autoprefixer": "^9.8.6",
     "babel": "^6.23.0",
+    "chokidar": "3",
     "classnames": "^2.2.6",
     "core-js": "3",
     "ctx": "^0.3.0",
     "date-fns": "^2.15.0",
-    "gray-matter": "^4.0.2",
-    "isomorphic-unfetch": "^3.0.0",
     "jquery": "^3.5.1",
     "latest-node-version": "^1.0.0",
     "mkdirp": "^1.0.4",
     "next": "^12.0.8",
     "next-fonts": "1.0.3",
-    "next-optimized-images": "^2.6.1",
     "next-transpile-modules": "^3.3.0",
     "node-glob": "^1.2.0",
     "prop-types": "^15.7.2",
@@ -76,9 +69,6 @@
     "cross-env": "^7.0.2",
     "dotenv": "^8.2.0",
     "husky": "^4.2.5",
-    "imagemin-mozjpeg": "^9.0.0",
-    "imagemin-optipng": "^8.0.0",
-    "imagemin-svgo": "^8.0.0",
     "lint-staged": "^10.2.11",
     "polished": "^3.4.4",
     "postcss-loader": "^3.0.0",
@@ -89,7 +79,7 @@
     "tailwindcss": "^1.2.0"
   },
   "engines": {
-    "node": "12.x"
+    "node": "14.x"
   },
   "husky": {
     "hooks": {

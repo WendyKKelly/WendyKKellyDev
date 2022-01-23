@@ -24,7 +24,7 @@ export const GlobalStyle = createGlobalStyle`
     margin-left: 0rem;
     margin-top: 20rem;
     margin-right: 0rem;
-    color: ${themeGet('colors.menu', '#2c2e35')};
+    color: '#2c2e35';
     margin-bottom: 24px;
     letter-spacing: 1.5px;
     z-index: 5;
@@ -73,7 +73,7 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 900;
     margin-left: 0rem;
     margin-top: 4rem;
-    color: ${themeGet('colors.menu', '#2c2e35')};
+    color:  '#2c2e35';
     margin-bottom: 24px;
     letter-spacing: 1.5px;
     @media only screen and (max-width: 1440px) {

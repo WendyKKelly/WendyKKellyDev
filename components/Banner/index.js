@@ -40,7 +40,7 @@ const Banner = () => {
                   <Subscribe>
                     <Heading
                       as="h3"
-                      content="—  I enjoyed working with developers so much I decided to join them!"
+                      content="—  I enjoyed working with developers so I decided to join them."
                     />
 
                     <Text className="banner-caption" content="" />

@@ -4,7 +4,7 @@ import Line from '../public/image/dotted-line.png';
 
 export const GlobalStyle = createGlobalStyle`
   body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
   }
 
   h1,
@@ -13,11 +13,11 @@ export const GlobalStyle = createGlobalStyle`
   h4,
   h5,
   h6 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     margin-top: 0;
   }
   h1 {
-    font-family: Helvetica Neue;
+    font-family: 'Helvetica Neue';
     font-size: 4rem;
     line-height: 60px;
     font-weight: 900;
@@ -156,7 +156,7 @@ export const GlobalStyle = createGlobalStyle`
             font-weight: 500;
             color: #343d48;
             position: relative;
-            font-family: 'Raleway', sans-serif;
+            font-family: 'Helvetica Neue', sans-serif;
             transition: 0.15s ease-in-out;
             @media (max-width: 767px) {
               font-size: 18px;

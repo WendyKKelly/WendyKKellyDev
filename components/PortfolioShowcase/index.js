@@ -21,7 +21,7 @@ import {
   MetaItem,
 } from './portfolioShowcase.style';
 import { PrevButton, NextButton } from '../portfolio.style';
-import { PORTFOLIO_SHOWCASE } from '../data';
+import { PORTFOLIO_SHOWCASE } from '../Data';
 
 const PortfolioShowcase = ({
   sectionWrapper,

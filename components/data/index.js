@@ -3,7 +3,7 @@ import PortfolioImage2 from '../../public/image/portfolio-2.jpg';
 import PortfolioImage3 from '../../public/image/portfolio-3.jpg';
 import PortfolioImage4 from '../../public/image/portfolio-4.jpg';
 import PortfolioImage5 from '../../public/image/portfolio-5.jpg';
-import PortfolioImage6 from '../../public/image/portfolio-6.jpg';
+
 import Step1 from '../../public/image/step-1.png';
 import Step2 from '../../public/image/step-2.png';
 import Step3 from '../../public/image/step-3.png';
@@ -166,56 +166,7 @@ export const PORTFOLIO_SHOWCASE = [
       },
     ],
   },
-  {
-    title: 'BEER TIME?',
-    portfolioItem: [
-      {
-        title: 'JS Practice Site',
-        description:
-          'This is my ongoing JavaScript practice site, dedicated to — BEER.',
-        image: PortfolioImage6,
-        link: 'https://wendykianakelly.today',
-        featuredIn: '',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
-        buildWith: [
-          {
-            content: 'React JS',
-          },
-          {
-            content: 'Momentjs',
-          },
-          {
-            content: 'APIs',
-          },
-        ],
-      },
-      {
-        title: '',
-        description: '',
-        image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
-        buildWith: [
-          {
-            content: '',
-          },
-          {
-            content: '',
-          },
-          {
-            content: '',
-          },
-        ],
-      },
-    ],
-  },
+
   {
     title: 'PERSONAL BLOG',
     portfolioItem: [

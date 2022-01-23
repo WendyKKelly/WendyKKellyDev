@@ -7,7 +7,7 @@ import Image from 'next/image';
 //import illustration from '../../public/image/dandelion2.jpg';
 import Heading from '../Heading';
 
-import Container from '../UI/ContainerTwo';
+import Container from '../UI/Container';
 import Section, {
   ContentWrapper,
   //Illustration,

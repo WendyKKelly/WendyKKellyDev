@@ -1,9 +1,9 @@
-import PortfolioImage1 from '../../image/portfolio-1.jpg';
-import PortfolioImage2 from '../../image/portfolio-2.jpg';
-import PortfolioImage3 from '../../image/portfolio-3.jpg';
-import PortfolioImage4 from '../../image/portfolio-4.jpg';
-import PortfolioImage5 from '../../image/portfolio-5.jpg';
-import PortfolioImage6 from '../../image/portfolio-6.jpg';
+import PortfolioImage1 from '../../public/portfolio-1.jpg';
+import PortfolioImage2 from '../../public/portfolio-2.jpg';
+import PortfolioImage3 from '../../public/portfolio-3.jpg';
+import PortfolioImage4 from '../../public/portfolio-4.jpg';
+import PortfolioImage5 from '../../public/portfolio-5.jpg';
+import PortfolioImage6 from '../../public/portfolio-6.jpg';
 import Image from 'next/image';
 export const PORTFOLIO_SHOWCASE = [
   {

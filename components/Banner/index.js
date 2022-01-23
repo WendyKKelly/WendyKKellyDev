@@ -4,7 +4,7 @@ import Zoom from 'react-reveal/Zoom';
 import Text from '../Text';
 import Link from '../Link';
 import Image from 'next/image';
-//import illustration from '../../public/image/dandelion2.jpg';
+import illustration from '../../public/image/dandelion2.jpg';
 import Heading from '../Heading';
 
 import Container from '../UI/Container';

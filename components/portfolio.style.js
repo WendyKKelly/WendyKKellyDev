@@ -523,6 +523,21 @@ export const ProjectButton = styled.div`
       center/15000%;
     transition: background 0s;
   }
+  @media only screen and (max-width: 1440px) {
+    margin-left: 15rem;
+  }
+  @media only screen and (max-width: 1024px) {
+    margin-left: 12rem;
+  }
+  @media only screen and (max-width: 999px) {
+    margin-left: 10rem;
+  }
+  @media only screen and (max-width: 768px) {
+    margin-left: 7rem;
+  }
+  @media only screen and (max-width: 480px) {
+    margin-left: 5rem;
+  }
 `;
 export const ButtonWrapper = styled.div`
   position: relative;

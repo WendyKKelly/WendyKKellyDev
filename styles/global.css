@@ -27,12 +27,12 @@ body {
 }
 
 a {
-  color: green;
+  color: #2c2e35;
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 img {

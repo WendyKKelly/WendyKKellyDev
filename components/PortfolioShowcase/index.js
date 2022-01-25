@@ -45,7 +45,7 @@ const PortfolioShowcase = ({
     <Box {...sectionWrapper} as="section" id="portfolio_section">
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
-          <Heading {...secTitle} as="h1" content="Projects" />
+          <Heading {...secTitle} as="h1" content="Projects" id="Projects" />
           <Text
             {...secDescription}
             as="h3"

@@ -499,7 +499,31 @@ export const NextButton = styled.div`
     }
   }
 `;
+export const ProjectButton = styled.div`
+  border: none;
+  margin-left: 15rem;
+  width: 10rem;
+  height: 10rem;
+  padding: 3rem 0.8rem;
+  font-size: 1.7rem;
+  border-radius: 50%;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #2c2e35;
+  background-color: rgba(188, 237, 243);
+  box-shadow: 0 0 0.7rem #999;
+  outline: none;
 
+  span {
+    background-position: center;
+  }
+  &:hover {
+    background: rgba(188, 237, 243, 0.3)
+      radial-gradient(circle, transparent 1%, rgba(188, 237, 243) 1%)
+      center/15000%;
+    transition: background 3s;
+  }
+`;
 export const ButtonWrapper = styled.div`
   position: relative;
   z-index: 1;

@@ -7,7 +7,7 @@ const ContainerWrapper = styled.div`
     props.fullWidth &&
     css`
       width: 100%;
-      max-width: none !important;
+      max-width: 2200px; !important;
     `};
   ${(props) =>
     (props.noGutter &&
@@ -32,7 +32,7 @@ const ContainerWrapper = styled.div`
     width: 100%;
   }
   @media (min-width: 1220px) {
-    max-width: ${(props) => props.width || '1170px'};
+    max-width: ${(props) => props.width || '2220px'};
     width: 100%;
   }
   @media (max-width: 768px) {

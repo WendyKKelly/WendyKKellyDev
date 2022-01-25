@@ -2,88 +2,26 @@ import styled from 'styled-components';
 import { rgba } from 'polished';
 import { themeGet } from '@styled-system/theme-get';
 import Image from 'next/image';
-import { BreathePulse } from '../BreathePulse';
-import { AnimSpinner } from '../Animation';
+
 const Section = styled.section``;
-
+export const Container = styled.div`=
+max-width: 2200px;
+;`;
 export const ContentWrapper = styled.div`
-  .wrap {
-    max-width: 100%;
-    background: rgba(188, 237, 243, 0.3);
-  }
-  .image {
-    position: relative;
-    width: 100vw;
-    background-repeat: no-repeat;
+  maz-width: 2500px;
+  background: rgba(188, 237, 243, 0.3);
+  margin: 0;
+  background-size: cover;
+  padding-top: 1rem;
 
-    height: 100vh;
-    overflow: hidden;
-    border-radius: 0% 70% 0% 50% / 0% 50% 0% 70%;
-    z-index: -1;
+  padding-bottom: 0.5rem;
 
-    @media only screen and (max-width: 1600px) {
-      max-width: 100%;
-    }
-    @media only screen and (max-width: 1400px) {
-      max-width: 100%;
-    }
-    @media only screen and (max-width: 1024px) {
-      max-width: 100%;
-    }
-    @media only screen and (max-width: 999px) {
-      min-height: 50vh;
-      border-radius: 0%;
-    }
-    @media only screen and (max-width: 768px) {
-      min-height: 10vh;
-      display: none;
-      position: relative;
-      background-image: none;
-    }
-    @media only screen and (max-width: 480px) {
-      display: block;
-    }
-  }
-`;
-export const Watch = styled.div`
-  .watch {
-    display: flex;
-    align-items: center;
-    height: 10vh;
-    justify-content: center;
-  }
-  .watch-face {
-    color: transparent;
-    position: absolute;
-    top: 28%;
-    left: 15%;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background: rgba(188, 237, 243, 0.889);
-    ${BreathePulse};
-    @media only screen and (max-width: 1440px) {
-      top: 15%;
-      left: 15%;
-    }
-    @media only screen and (max-width: 768px) {
-      top: 15%;
-      left: 50%;
-    }
-    @media only screen and (max-width: 480px) {
-      top: 15%;
-      left: 50%;
-    }
-  }
-`;
-export const Illustration = styled.div``;
-
-export const BannerContent = styled.div`
-  z-index: 5;
+  max-width: 1600px;
   @media only screen and (max-width: 1600px) {
     max-width: 100%;
   }
   @media only screen and (max-width: 1400px) {
+    max-width: 100%;
   }
   @media only screen and (max-width: 1024px) {
     max-width: 100%;
@@ -100,12 +38,15 @@ export const BannerContent = styled.div`
 
     line-height: 1.5rem;
   }
+`;
 
+export const BannerContent = styled.div`
   h1 {
     font-family: Helvetica Neue;
     font-size: 4rem;
     line-height: 60px;
     font-weight: 900;
+
     margin-left: 0rem;
     margin-top: 10rem;
     margin-right: 0rem;
@@ -344,91 +285,6 @@ export const Subscribe = styled.div`
     }
   }
 
-  button {
-    background-color: #ee9b27;
-    min-width: 150px;
-    height: 150px;
-    margin-top: 10rem;
-    margin-right: 1rem;
-    border-radius: 48%;
-    ${AnimSpinner};
-    @media only screen and (max-width: 1440px) {
-      margin-top: 20rem;
-      background-position: bottom center;
-      flex-direction: column;
-    }
-    @media only screen and (max-width: 1024px) {
-      margin-top: 30rem;
-      background-position: bottom center;
-      flex-direction: column;
-      display: none;
-    }
-    @media only screen and (max-width: 768px) {
-      
-      margin: auto;
-      flex-direction: column;
-      background-position: bottom center;
-    }
-    @media only screen and (max-width: 480px) {
-      display: none;
-    }
-  }
-`;
-
-export const SponsoredBy = styled.div`
-  display: flex;
-  align-items: center;
-  margin-top: 40px;
-  @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
-    display: block;
-  }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    display: block;
-    margin-top: 25px;
-  }
-  @media only screen and (max-width: 1440px) {
-    margin-top: 30px;
-  }
-  @media only screen and (max-width: 768px) {
-    margin-top: 30px;
-    text-align: center;
-    justify-content: center;
-  }
-
-  @media only screen and (max-width: 480px) {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
-  .sponsoredBy {
-    color: ${rgba('#566272', 0.6)};
-    font-size: 16px;
-    margin-right: 21px;
-    margin-bottom: 0;
-    @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
-      margin: 0 0 20px 0;
-    }
-    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-      margin: 0 0 15px 0;
-    }
-    @media only screen and (max-width: 480px) {
-      margin-bottom: 15px;
-    }
-  }
-`;
-
-export const ImageGroup = styled.div`
-  display: flex;
-  align-items: center;
-  img {
-    &:not(:last-child) {
-      margin-right: 23px;
-    }
-
-    @media only screen and (max-width: 480px) {
-      max-width: 27%;
-    }
-  }
-`;
+  `;
 
 export default Section;

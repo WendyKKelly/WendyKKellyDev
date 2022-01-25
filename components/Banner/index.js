@@ -5,11 +5,13 @@ import Text from '../Text';
 import Link from '../Link';
 import Image from 'next/image';
 import Heading from '../Heading';
+import { ProjectButton } from '../portfolio.style';
 
 import Container from '../UI/Container';
 import Section, {
   ContentWrapper,
-  Watch,
+  //Watch,
+  //NewButton,
   BannerContent,
   Subscribe,
 } from './banner.style';
@@ -20,34 +22,26 @@ const Banner = () => {
       <Container>
         <Zoom>
           <ContentWrapper>
-            <div className="wrap">
-              <Watch>
-                <div className="watch">
-                  <div className="watch-face">
-                    <div className="circle"></div>
-                    <div className="circle"></div>
-                    <div className="circle"></div>
-                    <div className="circle"></div>
-                    <div className="circle"></div>
-                    <div className="circle"></div>
-                  </div>
-                </div>
-                <BannerContent>
-                  <Heading as="h1" content="Wendy Kelly, Front End Developer" />
+            <BannerContent>
+              <Heading as="h1" content="Wendy Kelly, Front End Developer" />
 
-                  <Heading as="h3" content="" />
+              <Heading as="h3" content="" />
 
-                  <Subscribe>
-                    <Heading
-                      as="h3"
-                      content="—  I enjoyed working with developers so I decided to join them."
-                    />
+              <ProjectButton>
+                <Link href="#Projects">
+                  <span>Projects</span>
+                </Link>
+              </ProjectButton>
 
-                    <Text className="banner-caption" content="" />
-                  </Subscribe>
-                </BannerContent>
-              </Watch>
-            </div>
+              <Subscribe>
+                <Heading
+                  as="h3"
+                  content="—  I enjoyed working with developers so I decided to join them."
+                />
+
+                <Text className="banner-caption" content="" />
+              </Subscribe>
+            </BannerContent>
           </ContentWrapper>
         </Zoom>
       </Container>

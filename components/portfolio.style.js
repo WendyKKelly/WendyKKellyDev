@@ -521,7 +521,7 @@ export const ProjectButton = styled.div`
     background: rgba(188, 237, 243, 0.3)
       radial-gradient(circle, transparent 1%, rgba(188, 237, 243) 1%)
       center/15000%;
-    transition: background 3s;
+    transition: background 0s;
   }
 `;
 export const ButtonWrapper = styled.div`

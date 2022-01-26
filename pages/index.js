@@ -6,15 +6,11 @@ import Link from 'next/link';
 import { ThemeProvider } from 'styled-components';
 import { theme } from '../styles/theme/portfolio';
 import { GlobalStyle, ContentWrapper } from '../components/portfolio.style';
-//import  SkillSection from '../components/Skill';
-//import NavBar from '../components/NavBar';
-import Banner from '../components/Banner';
-//import Introduction from '../components/Introduction';
-import PortfolioShowcase from '../components/PortfolioShowcase';
-//import Newsletter from '../components/Newsletter';
-//import Podcast from '../components/Podcast';
 
-//import Footer from '../components/Footer';
+import Banner from '../components/Banner';
+import Contact from '../components/Contact';
+import TechSkill from '../components/TechSkill';
+import PortfolioShowcase from '../components/PortfolioShowcase';
 
 export default function Home() {
   return (
@@ -39,7 +35,10 @@ export default function Home() {
 
         <ContentWrapper>
           <Banner />
+
           <PortfolioShowcase />
+          <TechSkill />
+          <Contact />
         </ContentWrapper>
       </Fragment>
     </ThemeProvider>

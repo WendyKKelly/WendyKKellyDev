@@ -252,6 +252,7 @@ export const Subscribe = styled.div`
       line-height: 60px;
       text-align: right;
       margin-left: 5rem;
+      padding-right: 1.2rem;
     }
   }
     .reusecore__input {

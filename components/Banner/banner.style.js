@@ -8,7 +8,6 @@ export const Container = styled.div`=
 max-width: 2200px;
 ;`;
 export const ContentWrapper = styled.div`
-  maz-width: 2500px;
   background: rgba(188, 237, 243, 0.3);
   margin: 0;
   background-size: cover;
@@ -16,7 +15,6 @@ export const ContentWrapper = styled.div`
 
   padding-bottom: 0.5rem;
 
-  max-width: 1600px;
   @media only screen and (max-width: 1600px) {
     max-width: 100%;
   }
@@ -34,9 +32,9 @@ export const ContentWrapper = styled.div`
     z-index: -2;
   }
   @media only screen and (max-width: 480px) {
-    margin-left: 0.7rem;
+    margin-left: 0rem;
 
-    line-height: 1.5rem;
+    line-height: 3.5rem;
   }
 `;
 

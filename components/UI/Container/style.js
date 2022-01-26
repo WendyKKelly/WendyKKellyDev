@@ -39,8 +39,8 @@ const ContainerWrapper = styled.div`
     ${(props) =>
       props.mobileGutter &&
       css`
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 1px;
+        padding-right: 1px;
       `};
   }
 `;
